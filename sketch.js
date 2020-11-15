@@ -31,7 +31,7 @@ function preload()
 function setup()
 {
   //for creating the gaming area.
-  createCanvas(400,400);
+  createCanvas(windowWidth, windowHeight);
   
   //creating  the groups.
   fruitgroup = createGroup();
