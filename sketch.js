@@ -118,7 +118,7 @@ function fruits()
   //fruits will be created after 80 frames.
   if(frameCount%80===0)
   {
-    fruit = createSprite(400,200,20,20);
+    fruit = createSprite(1200,200,20,20);
     
     direction = Math.round(random(1,2));
     
@@ -183,7 +183,7 @@ function enemy()
   if(frameCount%200===0)
   {
      
-    monster = createSprite(windoWith,20,20);
+    monster = createSprite(1200,200,20,20);
     //to give random image to the monsters.
     var n = Math.round(random(1,2));
     
