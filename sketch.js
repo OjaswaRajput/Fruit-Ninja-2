@@ -183,7 +183,7 @@ function enemy()
   if(frameCount%200===0)
   {
      
-    monster = createSprite(450,200,20,20);
+    monster = createSprite(windoWith,20,20);
     //to give random image to the monsters.
     var n = Math.round(random(1,2));
     
